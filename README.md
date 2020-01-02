@@ -43,5 +43,5 @@ Explain how to run the automated tests for this system
 10. Upload a pdf to your s3 and see the magic
 
 
-## Acknowledgments
+## Based on
 * **Pavinthan** - *Poppler for aws lambda* - [Pavinthan](https://github.com/jeylabs/aws-lambda-poppler-layer)
