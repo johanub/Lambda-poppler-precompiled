@@ -28,12 +28,12 @@ zip -r -X "app.zip" *
 4. Now go to the aws lambda console and and go into layer
 
 5. Make a new layer with the ```poppler.zip``` file. For runtime just choose all the python runtimes.
-<img src="">
+<img src="https://github.com/johanub/Lambda-poppler-precompiled/blob/master/step-by-step-pictures/layer-pic.png">
 
 6. Create a new lambda function and upload the file```app.zip``` 
 
 7. Select the layer witch we just made.
-<img src="">
+<img src="https://github.com/johanub/Lambda-poppler-precompiled/blob/master/step-by-step-pictures/lambda-pic.png">
 
 8. Setup a trigger on the s3 bucket where the pdf's will be uploaded
 
