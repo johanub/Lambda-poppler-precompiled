@@ -3,7 +3,7 @@ import os
 import boto3
 
 s3 = boto3.resource("s3")
-s3_bucket = s3.Bucket("notrfiler")
+s3_bucket = s3.Bucket("<your-bucket>")
 
 
 def index(event, context):
