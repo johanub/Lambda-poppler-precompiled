@@ -27,7 +27,7 @@ def index(event, context):
 
     images[0].save('/tmp/' + nameonly + 'png', 'PNG')
     f = open('/tmp/' + nameonly + 'png', 'rb')
-    s3_bucket.put_object(Key='preview/'+nameonly + '.png', Body=f, ACL="public-read")
+    s3_bucket.put_object(Key='previews/'+ nameonly + '.png', Body=f, ACL="public-read")
 
     return 'ok'
 
