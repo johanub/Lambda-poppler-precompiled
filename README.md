@@ -40,4 +40,4 @@ zip -r -X "app.zip" *
 9. Go to the bucket and make a directory called ```previews```
 Explain how to run the automated tests for this system
 
-10. Upload a pdf and see the magic
+10. Upload a pdf to your s3 and see the magic
