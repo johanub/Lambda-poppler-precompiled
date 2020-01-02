@@ -9,7 +9,7 @@ These instructions will get you a copy of the project up to run it on lambda
 
 ### Installing
 
-A step by step on how to setup using my sample script witch uses poppler to create thumbnails for pdf files.
+A step by step on how to setup using my sample script witch uses poppler to create thumbnails for pdf files. 
 
 1. Clone the project
 ```
@@ -21,7 +21,7 @@ git clone https://github.com/johanub/Lambda-poppler-precompiled
 s3_bucket = s3.Bucket("<your-bucket>")
 ```
 
-3. Navigate into the project directorty and zip the files using this command
+3. Navigate into the project directorty and zip the files using this command (command only works on unix based systems)
 ```
 zip -r -X "app.zip" *
 ```
